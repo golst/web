@@ -1,27 +1,27 @@
 html,
 body {
     height: 100%;
-    background-color: #333;
+    background-color: #fff;
 }
 body {
     display: -ms-flexbox;
     display: flex;
-    color: #fff;
-    text-shadow: 0.05rem .1rem rgba(0, 0, 0, .5);
-    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+    color: #333;
+    /* text-shadow: 0.05rem .1rem rgba(0, 0, 0, .5); */
+    /* box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5); */
 }
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  color: rgba(12, 11, 11, 0.5);
 }
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
-  color: #333;
+  color: #fff;
   text-shadow: none;
-  background-color: #fff;
-  border: .05rem solid #fff;
+  background-color: #333;
+  border: .05rem solid #333;
 }
 
 .cover-container {
@@ -45,24 +45,32 @@ a:hover {
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255, 255, 255, .25);
+  border-bottom-color: rgba(14, 13, 13, 0.25);
 }
 
 .nav-masthead .nav-link + .nav-link {
   margin-left: 1rem;
+  color: #fff;
+  background-color: #333;
+  border-color: #333;
 }
 
 .nav-masthead .active {
-  color: #fff;
-  border-bottom-color: #fff;
+  color: #333;
+  border-bottom-color: #333;
 }
 
 span .btn +.btn {
   margin-left: 1rem;
 } 
 
+#button_mine {
+  margin-top: auto;
+}
+
+
 .mastfoot {
-    color: rgba(255, 255, 255, .5);
+    color: rgba(12, 11, 11, 0.5);
 }
 @media (min-width: 48em) {
     .masthead-brand {
